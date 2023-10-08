@@ -24,7 +24,8 @@ class CategoryDetailScreen extends StatelessWidget {
           category.name=="Art"?
           Image.asset('assets/Art.jpg'):SizedBox(height: 10),
           //Text(category.name,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15)),
-          Text('About Event',style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+          // Text('About Event',style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+          Text(category.name,style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
           SizedBox(height: 10,),
           Text(category.description,style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400,letterSpacing: 0.1,color: Colors.black54)),
         ],
