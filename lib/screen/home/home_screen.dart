@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void _loadUserId() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
-      userId = prefs.getString('userId') ?? ""; // Replace 'userId' with your actual key
+      // userId = prefs.getString('userId') ?? ""; // Replace 'userId' with your actual key
     });
   }
 
